@@ -2,12 +2,13 @@ package PModule;
 
 public class RAM extends Module{
     int memory_size;
+    // тут я хотел про времена задержек, но "и так сойдет"
     String times;
     String type_s;
 
     public RAM() {
         memory_size = 0;
-        times = times = "";
+        times = "";
     }
 
     public RAM(String name_ram, String company_name, int memory_size, String times, String type) {
@@ -16,7 +17,7 @@ public class RAM extends Module{
         this.type_s = type;
         this.name = name_ram;
         this.company_name = company_name;
-        this.type = EModule.GPU;
+        this.type = EModule.RAM;
     }
 
     public RAM(RAM ram) {

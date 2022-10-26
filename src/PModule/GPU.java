@@ -2,6 +2,7 @@ package PModule;
 
 public class GPU extends Module{
     int core;
+    // хотел юзать гб, чтобы использовать меньшие обьем памяти (изать больше памети для сохранения памяти))
     int memory_size;
     String series;
 

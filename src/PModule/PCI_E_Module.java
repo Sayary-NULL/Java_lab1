@@ -3,6 +3,7 @@ package PModule;
 public class PCI_E_Module extends Module{
     String pci_e_type;
     String desc;
+    // хз что вставить, будет только два параметра, хотя старался 3
 
     public PCI_E_Module() {
         pci_e_type = desc = "";
@@ -13,7 +14,7 @@ public class PCI_E_Module extends Module{
         this.desc = desc;
         this.name = name_cpu;
         this.company_name = company_name;
-        this.type = EModule.GPU;
+        this.type = EModule.PCI_E;
     }
 
     public PCI_E_Module(PCI_E_Module pm) {

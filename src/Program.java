@@ -2,6 +2,7 @@ import PModule.*;
 
 public class Program {
     public static void main (String[] args){
+        // соберем свой пк мечты)
         CPU cpu = new CPU("Ryzen 5 2600X", "AMD",6, 12, "AM4");
         GPU gpu = new GPU("NVIDIA 9090 TI", "NVIDIA", 9090, 33554432, "series 2");
         RAM ram = new RAM("NO NAME", "NO NAME", 33554432, "0-0-0", "DDR16");

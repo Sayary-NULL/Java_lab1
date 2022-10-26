@@ -1,7 +1,10 @@
 import PModule.*;
 
 public class PC extends Computing_Machine {
+    // мой! и точка!
     String owner;
+    // можно было бы вставить переменную про ОС, но "надо было ставить линкукс!" никуда не делся,
+    // поэтому наши пк всегда юзают UNIX системму)
 
     public PC() {
         super();

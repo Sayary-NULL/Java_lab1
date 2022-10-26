@@ -3,6 +3,7 @@ package PModule;
 public class Main_Plate extends Module{
     String socket;
     int count_pci_e_port;
+    // а что еще есть простое у матплаты? РГБ!
     Boolean rgb_light;
 
     public Main_Plate() {
@@ -17,7 +18,7 @@ public class Main_Plate extends Module{
         this.rgb_light = rgb_light;
         this.name = name_mp;
         this.company_name = company_name;
-        this.type = EModule.GPU;
+        this.type = EModule.MAIN_PLATE;
     }
 
     public Main_Plate(Main_Plate mp) {

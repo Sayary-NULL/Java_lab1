@@ -28,7 +28,7 @@ public class CPU extends Module {
         this.type = cpu.type;
     }
 
-    @Override
+    @Override // переопределим, хотя можно для первых параметров не писать сам prln, но напишем
     public void print_info() {
         System.out.println("CPU params:");
         System.out.println("name: " + name);

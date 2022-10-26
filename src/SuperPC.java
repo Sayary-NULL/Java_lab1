@@ -1,6 +1,7 @@
 import PModule.*;
 
 public class SuperPC extends Computing_Machine {
+    // врятли у физика будет личный супер пк, поэтому хотим знать какой компании он принадлежит (но я бы взял себе супер пк)
     String company_name;
 
     public SuperPC() {

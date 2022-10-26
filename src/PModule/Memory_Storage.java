@@ -16,7 +16,7 @@ public class Memory_Storage extends Module{
         this.type_connect = type_connect;
         this.name = name_mem;
         this.company_name = company_name;
-        this.type = EModule.GPU;
+        this.type = EModule.MEMORY_STORE;
     }
 
     public Memory_Storage(Memory_Storage ms) {
